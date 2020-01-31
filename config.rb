@@ -45,6 +45,11 @@ page '/*.txt', layout: false
 #   activate :minify_javascript
 # end
 
+configure :production do
+  set :http_prefix, '/railscamp27'
+  set :https, true
+end
+
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
