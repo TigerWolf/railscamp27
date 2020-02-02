@@ -46,6 +46,10 @@ page '/*.txt', layout: false
 # end
 
 configure :production do
+  set :https, true
+end
+
+configure :staging do
   set :http_prefix, '/railscamp27'
   set :https, true
 end
