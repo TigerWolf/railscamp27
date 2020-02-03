@@ -45,6 +45,8 @@ page '/*.txt', layout: false
 #   activate :minify_javascript
 # end
 
+set :fonts_dir, 'fonts'
+
 configure :production do
   set :https, true
 end
