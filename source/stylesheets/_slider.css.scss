@@ -1,0 +1,33 @@
+.slider .slick-slide {
+  @media screen and (min-width: 600px) {
+    padding: 0 1rem;
+  }
+}
+
+.slider .slick-slide img {
+  border-radius: 1rem;
+  margin: 0px auto;
+}
+
+.slider .slick-prev {
+  left: 1rem;
+}
+
+.slider .slick-next {
+  right: 1rem;
+}
+
+.slider .slick-prev,
+.slider .slick-next {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  z-index: 4;
+}

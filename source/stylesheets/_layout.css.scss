@@ -1,18 +1,27 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #FCE7B5;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
+div {
+  box-sizing: border-box
+}
+
+h1,h2 {
   font-family: 'Coniferous', -apple-system, BlinkMacSystemFont, sans-serif;
   text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 a {
