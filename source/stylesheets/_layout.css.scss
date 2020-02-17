@@ -1,34 +1,31 @@
+html {
+  background-color: #c3c99b;
+}
+
 body {
-  background-color: #FCE7B5;
-  color: #333;
-  font-family: Nunito, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #fce7b5;
+  color: #3a3d28;
+  font-family: "Martel", serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
 div {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
-h1,h2 {
-  font-family: 'Coniferous', -apple-system, BlinkMacSystemFont, sans-serif;
+h1,
+h2 {
+  font-family: "Coniferous", -apple-system, BlinkMacSystemFont, sans-serif;
   text-transform: uppercase;
+  font-size: initial;
 }
 
 img {
   max-width: 100%;
 }
 
-h2 {
-  font-size: 2em;
-}
-
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+p {
+  margin-top: 0.5rem;
 }
