@@ -7,9 +7,16 @@
   max-width: 100%;
   padding: 1rem;
   text-align: center;
-  width: 1000px;
 
   @media screen and (min-width: 600px) {
     padding: 2rem;
+  }
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &.light {
+    background-color: #c3c99b;
   }
 }
