@@ -31,6 +31,10 @@
   &:focus,
   &:hover {
     color: #222;
+
+    .dark & {
+      color: #fafafa;
+    }
   }
 
   .dark & {
