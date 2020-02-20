@@ -1,6 +1,69 @@
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.buy-tickets {
+  padding: 2rem 0;
+}
+
 .content {
   font-size: 18px;
   line-height: 2rem;
-  max-width: 100%;
-  width: 800px;
+  margin: 0px auto;
+  max-width: 600px;
+  text-align: center;
+  width: 100%;
+
+  .dark & {
+    color: #fce7b5;
+  }
+}
+
+.content *:first-child {
+  margin-top: 0;
+}
+
+.content a {
+  color: #3a3d28;
+  font-weight: 700;
+  text-decoration: underline;
+
+  &:focus,
+  &:hover {
+    color: #222;
+
+    .dark & {
+      color: #fafafa;
+    }
+  }
+
+  .dark & {
+    color: #fef7e7;
+  }
+}
+
+.logos {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sapphire .logos {
+  margin-top: 2rem;
+}
+
+.logo {
+  margin: 1rem;
+}
+
+.sapphire-and-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

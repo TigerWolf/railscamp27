@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Coniferous";
+  src: url("/fonts/coniferous-reg/coniferous-reg.woff2") format("woff2"),
+    url("/fonts/coniferous-reg/coniferous-reg.woff") format("woff"),
+    url("/fonts/coniferous-reg/coniferous-reg.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Coniferous";
+  src: url("/fonts/coniferous-med/coniferous-med.woff2") format("woff2"),
+    url("/fonts/coniferous-med/coniferous-med.woff") format("woff"),
+    url("/fonts/coniferous-med/coniferous-med.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+.heading {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  padding-bottom: 2rem;
+
+  @media screen and (min-width: 600px) {
+    font-size: 2.6rem;
+  }
+}
+
+.subheading {
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 3rem;
+}

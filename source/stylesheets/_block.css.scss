@@ -1,5 +1,27 @@
+.blocks {
+  width: 100%;
+}
+
 .block {
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
+  background-color: #fce7b5;
+  margin: 0px auto;
+  max-width: 100%;
+  padding: 1rem;
+  text-align: center;
+
+  @media screen and (min-width: 600px) {
+    padding: 2rem;
+  }
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &.light {
+    background-color: #fef7e7;
+  }
+
+  &.dark {
+    background-color: #3a3d28;
+  }
 }
