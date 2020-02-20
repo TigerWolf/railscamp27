@@ -23,6 +23,10 @@
   }
 }
 
+.content *:first-child {
+  margin-top: 0;
+}
+
 .content a {
   color: #3a3d28;
   font-weight: 700;
