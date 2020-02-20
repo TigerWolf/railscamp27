@@ -3,6 +3,7 @@
 }
 
 .block {
+  background-color: #fce7b5;
   margin: 0px auto;
   max-width: 100%;
   padding: 1rem;
@@ -17,6 +18,10 @@
   }
 
   &.light {
-    background-color: #c3c99b;
+    background-color: #fef7e7;
+  }
+
+  &.dark {
+    background-color: #3a3d28;
   }
 }
