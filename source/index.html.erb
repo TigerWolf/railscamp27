@@ -7,10 +7,12 @@ image: https://railscamp.com.au/images/og-image.jpg
 
 <div class="blocks">
   <%= partial 'parts/feature' %>
+  <%= partial 'parts/images', :locals => {:images => [5, 3] } %>
   <%= partial 'parts/the-venue' %>
+  <%= partial 'parts/images', :locals => {:images => [2, 6] } %>
   <%= partial 'parts/transport' %>
-  <%= partial 'parts/what-to-expect' %>
+  <%= partial 'parts/images', :locals => {:images => [4, 1] } %>
   <%= partial 'parts/faq' %>
+  <%= partial 'parts/images', :locals => {:images => [7, 8] } %>
   <%= partial 'parts/sponsors' %>
-  <%= partial 'parts/contact' %>
-</div>
+  </div>

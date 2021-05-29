@@ -6,11 +6,11 @@
   background-color: #fce7b5;
   margin: 0px auto;
   max-width: 100%;
-  padding: 1rem;
+  padding: 3rem 1rem;
   text-align: center;
 
   @media screen and (min-width: 600px) {
-    padding: 2rem;
+    padding: 4rem;
   }
 
   &:first-child {
@@ -23,5 +23,10 @@
 
   &.dark {
     background-color: #3a3d28;
+    color: #fce7b5;
   }
+}
+
+.block img {
+  margin-bottom: 2rem;
 }

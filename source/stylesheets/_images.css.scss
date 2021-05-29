@@ -1,0 +1,14 @@
+.images {
+  @media screen and (min-width: 600px) {
+    display: flex;
+  }
+}
+
+.image {
+  width: 100%;
+  filter: sepia(25%);
+
+  @media screen and (min-width: 600px) {
+    width: 50%;
+  }
+}

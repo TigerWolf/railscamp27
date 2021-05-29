@@ -1,11 +1,9 @@
-.feature {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  padding: 2rem;
-  text-align: center;
-}
+.feature_logo {
+  width: 240px;
+  margin: auto;
+  padding: 2rem 0;
 
-.feature img {
-  max-width: 100%;
+  @media screen and (min-width: 600px) {
+    width: 360px;
+  }
 }
