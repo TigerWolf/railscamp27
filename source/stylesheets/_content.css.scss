@@ -8,6 +8,7 @@
 
 .buy-tickets {
   padding: 2rem 0;
+  position: relative;
 }
 
 .content {
@@ -17,6 +18,10 @@
   max-width: 720px;
   text-align: center;
   width: 100%;
+
+  .dark & {
+    color: #fef7e7;
+  }
 }
 
 .content *:first-child {

@@ -6,6 +6,7 @@ image: https://railscamp.com.au/images/og-image.jpg
 ---
 
 <div class="blocks">
+  <%= partial 'parts/banner' %>
   <%= partial 'parts/feature' %>
   <%= partial 'parts/images', :locals => {:images => [5, 3] } %>
   <%= partial 'parts/the-venue' %>
@@ -15,4 +16,4 @@ image: https://railscamp.com.au/images/og-image.jpg
   <%= partial 'parts/faq' %>
   <%= partial 'parts/images', :locals => {:images => [7, 8] } %>
   <%= partial 'parts/sponsors' %>
-  </div>
+</div>
