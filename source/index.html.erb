@@ -8,12 +8,12 @@ image: https://railscamp.com.au/images/og-image.jpg
 <div class="blocks">
   <%= partial 'parts/banner' %>
   <%= partial 'parts/feature' %>
-  <%= partial 'parts/images', :locals => {:images => [5, 3] } %>
+  <%= partial 'parts/images', :locals => {:images => [[5, 'A group of people playing card games'], [3, 'A person swimming in a river']] } %>
   <%= partial 'parts/the-venue' %>
-  <%= partial 'parts/images', :locals => {:images => [2, 6] } %>
+  <%= partial 'parts/images', :locals => {:images => [[2, 'A group of developers working outside'], [6, 'A person pouring coffee into a cup']] } %>
   <%= partial 'parts/transport' %>
-  <%= partial 'parts/images', :locals => {:images => [4, 1] } %>
+  <%= partial 'parts/images', :locals => {:images => [[4, 'A person smiling and giving the thumbs up'], [1, 'Two people smiling']] } %>
   <%= partial 'parts/faq' %>
-  <%= partial 'parts/images', :locals => {:images => [7, 8] } %>
+  <%= partial 'parts/images', :locals => {:images => [[7, 'A person smiling'], [8, 'A person climbing a tree']] } %>
   <%= partial 'parts/sponsors' %>
 </div>
