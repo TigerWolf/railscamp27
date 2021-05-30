@@ -1,0 +1,5 @@
+<div class="images">
+  <%- images.each do |image, alt| %>
+    <%= image_tag "slides/#{image}.jpg", :class => 'image', :alt => alt %>
+  <%- end %>
+</div>

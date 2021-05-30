@@ -1,11 +1,47 @@
-.feature {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  padding: 2rem;
-  text-align: center;
+.feature_logo {
+  width: 240px;
+  margin: auto;
+  padding: 2rem 0;
+
+  @media screen and (min-width: 600px) {
+    width: 360px;
+  }
 }
 
-.feature img {
-  max-width: 100%;
+@keyframes breeze {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  70% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#top-leaf {
+  will-change: transform;
+  animation: breeze 8s infinite ease-in-out 1s;
+}
+
+#main-leaf {
+  will-change: transform;
+  animation: breeze 8s infinite ease-in-out 0.5s;
+}
+
+#gumnut {
+  will-change: transform;
+  animation: breeze 8s infinite ease-in-out;
+}
+
+#bottom-leaf {
+  will-change: transform;
+  animation: breeze 8s infinite ease-in-out 0.25s;
 }

@@ -7,15 +7,11 @@
     <%= partial 'parts/meta-tags' %>
     <title><%= current_page.data.title || "Railscamp 27" %></title>
     <%= favicon_tag 'images/favicon.png' %>
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" %>
     <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Martel:400,700&display=swap" %>
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "https://use.fontawesome.com/releases/v5.12.0/css/all.css" %>
   </head>
   <body>
     <%= yield %>
-    <%= javascript_include_tag "https://code.jquery.com/jquery-3.4.1.slim.min.js" %>
-    <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" %>
-    <%= javascript_include_tag "site" %>
   </body>
 </html>

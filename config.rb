@@ -1,9 +1,11 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+activate :autoprefixer do |config|
+  config.browsers = ["last 2 versions"]
 end
+
+activate :livereload
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -31,11 +33,11 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def ticket_url
+    'https://ti.to/ruby-australia/railscamp-27/discount/RADRUBY?fbclid=IwAR0oq2gOsEWNbPCk36SyncDAkRbtTL-Ye9t0qW-59lIJBuT0BAp1S81_z78'
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

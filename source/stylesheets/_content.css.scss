@@ -8,18 +8,19 @@
 
 .buy-tickets {
   padding: 2rem 0;
+  position: relative;
 }
 
 .content {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 2rem;
   margin: 0px auto;
-  max-width: 600px;
+  max-width: 720px;
   text-align: center;
   width: 100%;
 
   .dark & {
-    color: #fce7b5;
+    color: #fef7e7;
   }
 }
 
@@ -47,23 +48,26 @@
 }
 
 .logos {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
-}
 
-.sapphire .logos {
-  margin-top: 2rem;
+  @media screen and (min-width: 600px) {
+    margin: 1.5rem 0 3rem;
+  }
 }
 
 .logo {
-  margin: 1rem;
+  margin: 1.5rem 2rem 3rem;
+
+  img {
+    filter: brightness(0) invert(1);
+  }
 }
 
-.sapphire-and-contact {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+img.ruby-logo {
+  margin-bottom: 0.5rem;
+  width: 4rem;
 }
