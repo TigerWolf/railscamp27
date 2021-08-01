@@ -35,7 +35,7 @@ page '/*.txt', layout: false
 
 helpers do
   def ticket_url
-    'https://ti.to/ruby-australia/railscamp-27/discount/RADRUBY?fbclid=IwAR0oq2gOsEWNbPCk36SyncDAkRbtTL-Ye9t0qW-59lIJBuT0BAp1S81_z78'
+    'https://ti.to/ruby-australia/railscamp-27'
   end
 end
 
